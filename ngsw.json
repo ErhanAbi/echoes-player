@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/0.971c5272c542f2707ebf.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.2d0f5770915a7430ee08.js",
+        "/polyfills.b4f416d61e7a7ed49e68.js",
+        "/runtime.434cbded6d39be02c470.js",
+        "/styles.0ed4ffa40733e3ab6c08.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icon/icon.html",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-48x48.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/developed-with-youtube-sentence-case-light.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/0.971c5272c542f2707ebf.js": "5cc0426192e68a846eacd42c3f3fae72eaff915c",
+    "/assets/icon/icon.html": "a46174131741d21de6e394a8b26706f5a92a74c2",
+    "/assets/icons/icon-128x128.png": "1855fde998b3d93beaaa4b0df600162892af7442",
+    "/assets/icons/icon-144x144.png": "fc7be92b73a0e13d93a173bfe870a5e7cfcf47e3",
+    "/assets/icons/icon-152x152.png": "4d76bcd323a51d39388f49ffb670dee52c30f1d5",
+    "/assets/icons/icon-192x192.png": "67704cb90f85d702a0eafb8e66fb6e033d8d87d7",
+    "/assets/icons/icon-384x384.png": "6e776d712223842ce3639aa8d37c993dbd73dedb",
+    "/assets/icons/icon-48x48.png": "291eb7457380466d04606bec9930ce131cd31e26",
+    "/assets/icons/icon-512x512.png": "a6f9d59f588d9ebc2d4f2c571d181cb80175b02b",
+    "/assets/icons/icon-72x72.png": "7362a67a4625baf44d908892581027f9963ad355",
+    "/assets/icons/icon-96x96.png": "f1cebf80b8f47834875f9447776d21d764bf4936",
+    "/assets/images/developed-with-youtube-sentence-case-light.png": "5e464a581cf659c50cadc5606cba4f2e62c881f8",
+    "/favicon.ico": "6cf8ada4691f9c8311889101d975fe925597ec22",
+    "/index.html": "d2c76f582d6bbe5e222acd0c7b2898dd5b23821e",
+    "/main.2d0f5770915a7430ee08.js": "afcfb910ab82c6b06e9795b20eb217f0dc81fa83",
+    "/polyfills.b4f416d61e7a7ed49e68.js": "b908d49f82b26f434c2d500ed22a86c09d0e97bd",
+    "/runtime.434cbded6d39be02c470.js": "2dbe66d42ed965c979eae7dfa98a1ad283fc6592",
+    "/styles.0ed4ffa40733e3ab6c08.css": "c8296d1c2ed59f7f650d6c453327317d3f530030"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
